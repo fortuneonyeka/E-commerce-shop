@@ -1,9 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
+// import CartBtn from "./buttons/CartBtn";
+import Login from './buttons/Login'
+// import Signup from "./buttons/Signup";
 
 const Header = () => {
   return (
-
     <>
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
@@ -27,8 +29,11 @@ const Header = () => {
         <NavLink to="/contact" className="nav-link" aria-current="page">Contact</NavLink>
         </li>
       </ul>
+    <NavLink className="navbar-brand mx-auto fw-bold ms-3" to="/">FORTUNE MART</NavLink>
+    <Login />
+    <Signup />
+    <CartBtn />
     </div>
-    <NavLink className="navbar-brand mx-auto fw-bold" to="/">FORTUNE MART</NavLink>
   </div>
 </nav>
     </>
