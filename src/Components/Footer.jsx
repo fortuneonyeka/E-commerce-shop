@@ -1,8 +1,11 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+    <p>This project is built by <a href="https://github.com/fortuneonyeka/E-commerce-shop">Ihedoro Fortunatus</a></p>
+    </div>
   )
 }
 
