@@ -9,3 +9,13 @@
 .navbar-nav .nav-link {
   font-size: 25px;
 }
+
+/* Crad  */
+.card {
+  transition: all 0.5 ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
