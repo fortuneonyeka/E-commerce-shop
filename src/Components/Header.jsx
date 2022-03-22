@@ -29,7 +29,7 @@ const Header = () => {
         <NavLink to="/contact" className="nav-link" aria-current="page">Contact</NavLink>
         </li>
       </ul>
-    <NavLink className="navbar-brand mx-auto fw-bold ms-3" to="/">FORTUNE MART</NavLink>
+    <NavLink to="/" className="navbar-brand mx-auto fw-bold ms-3" to="/">FORTUNE MART</NavLink>
     <Login />
     <Signup />
     <CartBtn />
