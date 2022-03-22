@@ -10,6 +10,10 @@
   font-size: 25px;
 }
 
+.navbar {
+  position: fixed; top: 0; left: 0; z-index: 9999; width: 100%;
+}
+
 /* Crad  */
 .card {
   transition: all 0.5 ease;
@@ -18,4 +22,10 @@
 .card:hover {
   transform: scale(1.1);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+  position:fixed;
+   bottom:0;
+   width:100%;
 }
