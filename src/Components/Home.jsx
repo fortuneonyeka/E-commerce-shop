@@ -3,6 +3,7 @@ import Iphone1 from "../assests/images/home/apple-iphone-12-pro-2.jpeg"
 import Iphone2 from "../assests/images/home/Gj4BpxWHmrcvZmjaW9nmwf.jpeg"
 import Iphone3 from "../assests/images/home/jbareham_171101_2099_A_0088_02.jpeg"
 import Iphone4 from "../assests/images/home/photo-1603791239531-1dda55e194a6.jpeg"
+import Product from './Product'
 const Home = () => {
   return (
     <div>
@@ -41,16 +42,16 @@ const Home = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={Iphone1} className="d-block w-100" alt="IPHON1" height="1000" />
+            <img src={Iphone1} className="d-block w-100" alt="IPHON1" height="500" />
           </div>
           <div className="carousel-item">
-            <img src={Iphone2}className="d-block w-100" alt="IPHON2"  height="1000"/>
+            <img src={Iphone2}className="d-block w-100" alt="IPHON2"  height="500"/>
           </div>
           <div className="carousel-item">
-            <img src={Iphone3} className="d-block w-100" alt="IPHONE3"  height="1000"/>
+            <img src={Iphone3} className="d-block w-100" alt="IPHONE3"  height="500"/>
           </div>
           <div className="carousel-item">
-            <img src={Iphone4} className="d-block w-100" alt="IPHONE4" height="1000"/>
+            <img src={Iphone4} className="d-block w-100" alt="IPHONE4" height="500"/>
           </div>
         </div>
         <button
@@ -72,6 +73,7 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      <Product />
     </div>
   );
 };
