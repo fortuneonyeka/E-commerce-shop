@@ -4,26 +4,26 @@ import contact from "../assests/images/contact.jpeg";
 const Contact = () => {
   return (
     <div>
-      <div classNameName="container">
-        <div classNameName="row">
-          <div classNameName="col-12">
-            <h1 classNameName=" text-center py-4 my-4 text-info">
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <h1 className=" text-center py-4 my-4 text-info">
               Contact Us for your Enquiries
             </h1>
             <hr />
           </div>
         </div>
-        <div classNameName="row">
-          <div classNameName="col-md-5 d-flex justify-content-center">
+        <div className="row">
+          <div className="col-md-5 d-flex justify-content-center">
             <img
               src={contact}
               alt="About"
-              classNameName="w-100 p-3"
+              className="w-100 p-3"
               alt="Contact Us"
               height="500px"
             />
           </div>
-          <div classNameName="col-md-6 mt-3">
+          <div className="col-md-6 mt-3">
             <form>
               <div className="mb-3">
                 <label htmlFor="exampleFormControlInput1" className="form-label">
@@ -55,7 +55,7 @@ const Contact = () => {
                   id="exampleFormControlTextarea1"
                   rows="5"
                 ></textarea>
-                <button type="submit" classNameName="btn btn-outline-info py-3 w-100 mt-4">Send Message</button>
+                <button type="submit" className="btn btn-outline-info py-3 w-100 mt-4">Send Message</button>
               </div>
             </form>
           </div>
