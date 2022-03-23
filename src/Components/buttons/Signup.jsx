@@ -82,13 +82,13 @@ const Signup = () => {
                   />
                 </div>
                 <div className="mb-3">
-                  <label htmlFor="exampleInput" className="form-label">
+                  <label htmlFor="exampleInput1" className="form-label">
                     Password Confirmation
                   </label>
                   <input
                     type="password"
                     className="form-control p-3"
-                    id="exampleInput"
+                    id="exampleInput1"
                   />
                 </div>
                 <div className="mb-3 form-check">
