@@ -1,21 +1,21 @@
-// const addItem = [];
+const addItem = [];
 
-// const addItems = (state = addItem, action) => {
-//   switch(action.type) {
-//     case "ADDITEM" : return [
-//       ...state, 
-//       action.payload
-//     ]
+const addItems = (state = addItem, action) => {
+  switch(action.type) {
+    case "ADDITEM" : return [
+      ...state, 
+      action.payload
+    ]
     
 
-//     case "DELITEM" : 
-//     return state = state.filter((x)=> {
-//       return x.d !== action.payload.id
-//     })
+    case "DELITEM" : 
+    return state = state.filter((x)=> {
+      return x.d !== action.payload.id
+    })
    
-//     default: return state;
+    default: return state;
     
-//   }
-// }
+  }
+}
 
-// export default addItems
+export default addItems
