@@ -10,9 +10,9 @@ const ProductDetails = () => {
   console.log(product);
   return (
     <>
-      <div className="container p-4 mt-3">
+      <div className="container my-5 py-3">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 d-flex justify-content-center mx-auto">
               <img src={product.img} alt={product.title} height="500px" width="500px" />
           </div>
           <div className="col-md-6">

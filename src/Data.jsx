@@ -38,8 +38,8 @@ const DATA = [
   },
   {
     id:4,
-    title: "iphone 13pro",
-    price: 2000,
+    title: "iphone 13ProMax",
+    price: 2500,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitiaLorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitiaLorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitiaLorem ipsum dolor sit amet consecteadipisicing elit. Maxime mollitiaLorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia",
     img: iphone13
     
