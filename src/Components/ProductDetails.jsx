@@ -8,7 +8,7 @@ import {addItem, delItem} from '../redux/actions/index'
 const ProductDetails = () => {
   {/* Now we need a product id which is passed from product page */}
   const proid = useParams();
-  const proDetail = DATA.filter(x=>x.id === proid.id)
+  const proDetail = DATA.filter(x=>x.id == proid.id)
   const product = proDetail[0]
   console.log(product);
   const dispatch = useDispatch()
