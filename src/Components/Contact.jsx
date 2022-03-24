@@ -17,7 +17,6 @@ const Contact = () => {
           <div className="col-md-5 d-flex justify-content-center">
             <img
               src={contact}
-              alt="About"
               className="w-100 p-3"
               alt="Contact Us"
               height="500px"
