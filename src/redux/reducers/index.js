@@ -1,9 +1,9 @@
-// import addItems from "./addItem";
-// import { combineReducers } from "redux";
+import addItems from "./addItem";
+import { combineReducers } from "redux";
 
 
-// const rootReducers = combineReducers({
-//   addItems
-// })
+const rootReducers = combineReducers({
+  addItems
+})
 
-// export default rootReducers;
+export default rootReducers;
