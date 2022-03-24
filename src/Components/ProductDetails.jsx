@@ -12,15 +12,15 @@ const ProductDetails = () => {
     <>
       <div className="container my-5 py-3">
         <div className="row">
-          <div className="col-md-6 d-flex justify-content-center mx-auto">
+          <div className="col-md-6 d-flex justify-content-center  my-5 product">
               <img src={product.img} alt={product.title} height="500px" width="500px" />
           </div>
-          <div className="col-md-6">
-            <h1 className="text-danger">{product.title}</h1>
+          <div className="col-md-6 my-5 py-3">
+            <h1 className="text-danger fw-bold">{product.title}</h1>
             <hr />
-            <h2 className="text-info">${product.price}</h2>
-            <p>{product.desc}</p>
-            <button className="btn btn-outline-primary">Add To Cart</button>
+            <h2 className="text-info my-3">${product.price}</h2>
+            <p className="lead">{product.desc}</p>
+            <button className="btn btn-outline-primary my-2">Add To Cart</button>
           </div>
         </div>
       </div>
