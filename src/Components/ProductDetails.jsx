@@ -2,20 +2,25 @@ import React from 'react'
 import { useParams } from "react-router-dom"
 import { useState } from "react"
 import DATA from '../Data'
+import { useDispatch } from "react-redux"
+import {addItem, delItem} from '../redux/actions/index'
 
 const ProductDetails = () => {
   {/* Now we need a product id which is passed from product page */}
   const proid = useParams();
-  const proDetail = DATA.filter(x=>x.id == proid.id)
+  const proDetail = DATA.filter(x=>x.id === proid.id)
   const product = proDetail[0]
   console.log(product);
+  const dispatch = useDispatch()
 
   const [cartBtn, setCartBtn] = useState("Add To Cart")
-  const [count, setCount] = useState(0)
+
   const handleCart = (product) => {
     if (cartBtn === "Add To Cart") {
+      dispatch(addItem(product))
       setCartBtn("Remove From Cart")
     }else{
+      dispatch(delItem(product))
       setCartBtn("Add To Cart")
     }
     
