@@ -3,9 +3,9 @@ import { useSelector } from "react-redux";
 
 const Checkout = (cartItem) => {
   const state = useSelector((state) =>state.addItems)
-  // var total = 0
+  var total = 0
   const itemList = (item) => {
-    // total = total + item.price
+    total = total + item.price
     return (
       <li className="list-group-item d-flex justify-content-between lh-sm">
               <div>
