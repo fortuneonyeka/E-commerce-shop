@@ -4,17 +4,17 @@ import { useSelector } from "react-redux";
 const Checkout = (cartItem) => {
   const state = useSelector((state) =>state.addItems)
   // var total = 0
-  // const itemList = (item) => {
-  //   // total = total + item.price
-  //   return (
-  //     <li className="list-group-item d-flex justify-content-between lh-sm">
-  //             <div>
-  //               <h6 className="my-0">{item.title}</h6>
-  //             </div>
-  //             <span className="text-muted">{item.price}</span>
-  //           </li>
-  //   )
-  // }
+  const itemList = (item) => {
+    // total = total + item.price
+    return (
+      <li className="list-group-item d-flex justify-content-between lh-sm">
+              <div>
+                <h6 className="my-0">{item.title}</h6>
+              </div>
+              <span className="text-muted">{item.price}</span>
+            </li>
+    )
+  }
   return (
     <>
       <div className="container py-5 my-5">
