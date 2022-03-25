@@ -30,13 +30,13 @@
    width:100%;
 }
 
-.navbar {
+/* .navbar {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 5;
   overflow: hidden;
-}
+} */
 
 .carousel-inner {
   height: 600px;
