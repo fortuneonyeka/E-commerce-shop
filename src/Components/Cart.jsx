@@ -46,18 +46,18 @@ const Cart = () => {
   }
   const button = () => {
     return (
-      // <div className="container">
-      //   <div className="row">
-      //     <NavLink to="/checkout" className="btn">Proceed to checkout</NavLink>
-      //   </div>
-      // </div>
+      <div className="container">
+        <div className="row">
+          <NavLink to="/checkout" className="btn btn-outline-primary w-25 mb-5 mx-auto py-3">Proceed to checkout</NavLink>
+        </div>
+      </div>
     )
   }
   return (
     <>
     {state.length === 0 && empthycart()}
       {state.length !== 0 && state.map(cartItems)}
-      {/* {state.length !== 0 && button()} */}
+      {state.length !== 0 && button()}
     </>
   )
 }

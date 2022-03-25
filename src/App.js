@@ -7,6 +7,7 @@ import Contact from './Components/Contact'
 import Product from './Components/Product'
 import ProductDetails from "./Components/ProductDetails";
 import Cart from "./Components/Cart";
+import Checkout from "./Components/Checkout";
 import {BrowserRouter,Routes,Route,} from "react-router-dom";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route  path="/product" element={<Product />}/>
           <Route  path="/product/:id" element={<ProductDetails />}/>
           <Route  path="/cart" element={<Cart />}/>
+          <Route  path="/checkout" element={<Checkout />}/>
         </Routes>
       </BrowserRouter>
         <Footer />
