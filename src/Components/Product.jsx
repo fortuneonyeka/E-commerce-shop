@@ -19,7 +19,7 @@ const Product = () => {
   };
   return (
     <div>
-      <div className="container py-5">
+      <div className="container py-5 mt-5">
         <div className="row">
           <div className="col-12 text-center">
             <h1>Available Products</h1>

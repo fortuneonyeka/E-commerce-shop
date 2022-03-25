@@ -4,7 +4,7 @@ import contact from "../assests/images/contact.jpeg";
 const Contact = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container my-5">
         <div className="row">
           <div className="col-12">
             <h1 className=" text-center py-4 my-4 text-info">
