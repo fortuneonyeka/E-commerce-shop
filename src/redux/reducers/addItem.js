@@ -9,8 +9,8 @@ const addItems = (state = addItem, action) => {
     
 
     case "DELITEM" : 
-    return state = state.filter((x)=> {
-      return x.d !== action.payload.id
+    return state = state.filter((item)=> {
+      return item.id !== action.payload.id
     })
    
     default: return state;
