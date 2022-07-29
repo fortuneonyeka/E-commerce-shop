@@ -1,13 +1,52 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.navbar-nav li a {
+  font-size: 17px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-brand {
+  letter-spacing: 3px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 25px;
+}
+
+/* .navbar {
+  position: fixed; top: 0; left: 0; z-index: 9999; width: 100%;
+} */
+
+/* Crad  */
+.card {
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+  position:fixed;
+   bottom:0;
+   width:100%;
+}
+
+/* .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  overflow: hidden;
+} */
+
+.carousel-inner {
+  height: 600px;
+}
+
+.product img {
+  transition: all 0.5s ease;
+}
+
+.product img:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
